@@ -15,7 +15,7 @@ There are three principal test macros, `test`, `test-stdout`, and `test-error`.
 
 ## Test
 Registers a test with the framework.
-It takes a `:name`, an `:actual` value, an `:expected` value, and `:text`.
+It takes a `name`, an `:actual` value, an `:expected` value, and `:text`.
 
 Example:
 ```lisp
